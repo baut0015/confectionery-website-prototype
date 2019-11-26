@@ -44,12 +44,11 @@ body {
 
 header h1,
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin: 0;
   color: #fff;
   text-align: center;
 }
-
 
 section {
   background-color: #5f2121;
@@ -67,8 +66,8 @@ nav {
   text-align: center;
   display: flex;
   flex-direction: column;
-  font-family: 'Playfair Display', serif;
-  color: #993333;
+  font-family: "Playfair Display", serif;
+  color: #933;
   background-color: #f2d9d9;
 }
 
@@ -145,14 +144,13 @@ p {
     margin: 0;
   }
 
-
 }
 
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   .people {
@@ -174,7 +172,7 @@ p {
   }
 
   img {
-    width:100%;
+    width: 100%;
   }
 
   main {
@@ -195,41 +193,38 @@ p {
     display: none;
   }
 
-
   .img-flex {
     display: flex;
     flex-direction: column;
-    }
+  }
 
-    p#choco {
-      display: block;
-      position: relative;
-      background-color: rgba(0, 0, 0, .3);
-      transform: translateY(-115%);
-      text-align: center;
-      color: white;
-      padding-bottom: 1em;
-      padding-top: .5em;
-      margin: 0;
-    }
+  p#choco {
+    display: block;
+    position: relative;
+    background-color: rgba(0, 0, 0, .3);
+    transform: translateY(-115%);
+    text-align: center;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: .5em;
+    margin: 0;
+  }
 
 }
-
-
 
 @media only screen and (min-width: 60em) {
 
   html {
-   font-size: 120%;
-   line-height: 1.5;
- }
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
- main {
-  position: absolute;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  border: 0;
+  main {
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
   }
 
   .items:nth-of-type(1),
@@ -254,16 +249,16 @@ p {
   }
 
   img {
-    width:100%;
+    width: 100%;
   }
 
   header {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  z-index: 10;
-  width: 29%;
-  min-height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 29%;
+    min-height: 100%;
   }
 
   p#berry {

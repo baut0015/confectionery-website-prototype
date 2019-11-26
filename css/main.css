@@ -42,7 +42,7 @@ body {
 }
 
 header h1,
-p {
+h2 {
   font-family: 'Emilys Candy', cursive;
   margin: 0;
   color: #fff;
@@ -100,6 +100,7 @@ nav a:hover {
 }
 
 footer {
+  color: #5f2121;
   font-size: .7em;
   position: fixed;
   bottom: 0;
